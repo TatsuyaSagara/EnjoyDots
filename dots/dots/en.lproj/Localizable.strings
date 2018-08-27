@@ -1,0 +1,155 @@
+/* CountButton file */
+"CountButton" = "eng_count.png";
+/* CountButton file hold */
+"CountButtonHold" = "eng_count_hold.png";
+
+/* CalcButton file */
+"CalcButton" = "eng_calc.png";
+/* CalcButton file hold */
+"CalcButtonHold" = "eng_calc_hold.png";
+
+/* CountOpAuto file */
+"CountOpAuto" = "Auto";
+/* CountOpAuto file hold */
+"CountOpAutoHold" = "Auto";
+
+/* CountOpManual file */
+"CountOpManual" = "Manual";
+/* CountOpManual file hold */
+"CountOpManualHold" = "Manual";
+
+/* CalcOpAuto file */
+"CalcOpAuto" = "Auto";
+/* CalcOpAuto file hold */
+"CalcOpAutoHold" = "Auto";
+
+/* CalcOpManual file */
+"CalcOpManual" = "Manual";
+/* CalcOpManual file hold */
+"CalcOpManualHold" = "Manual";
+
+/* CountSpFast file */
+"CountSpFast" = "Fast";
+/* CountSpFast file hold */
+"CountSpFastHold" = "Fast";
+
+/* CountSpNormal file */
+"CountSpNormal" = "Normal";
+/* CountSpNormal file hold */
+"CountSpNormalHold" = "Normal";
+
+/* CountSpSlow file */
+"CountSpSlow" = "Slow";
+/* CountSpSlow file hold */
+"CountSpSlowHold" = "Slow";
+
+/* CalcSpFast file */
+"CalcSpFast" = "Fast";
+/* CalcSpFast file hold */
+"CalcSpFastHold" = "Fast";
+
+/* CalcSpNormal file */
+"CalcSpNormal" = "Normal";
+/* CalcSpNormal file hold */
+"CalcSpNormalHold" = "Normal";
+
+/* CalcSpSlow file */
+"CalcSpSlow" = "Slow";
+/* CalcSpSlow file hold */
+"CalcSpSlowHold" = "Slow";
+
+/* CountScJapanese file */
+"CountScJapanese" = "Japanese";
+/* CountScJapanese file hold */
+"CountScJapaneseHold" = "Japanese";
+
+/* CountScEnglish file */
+"CountScEnglish" = "English";
+/* CountScEnglish file hold */
+"CountScEnglishHold" = "English";
+
+/* CountScNone file */
+"CountScNone" = "None";
+/* CountScNone file hold */
+"CountScNoneHold" = "None";
+
+/* CalcScJapanese file */
+"CalcScJapanese" = "Japanese";
+/* CalcScJapanese file hold */
+"CalcScJapaneseHold" = "Japanese";
+
+/* CalcScEnglish file */
+"CalcScEnglish" = "English";
+/* CalcScEnglish file hold */
+"CalcScEnglishHold" = "English";
+
+/* CalcScNone file */
+"CalcScNone" = "None";
+/* CalcScNone file hold */
+"CalcScNoneHold" = "None";
+
+/* CountNm1-20 file */
+"CountNm1-20" = "1-20";
+/* CountNm1-20 file hold */
+"CountNm1-20Hold" = "1-20";
+
+/* CountNm21-40 file */
+"CountNm21-40" = "21-40";
+/* CountNm21-40 file hold */
+"CountNm21-40Hold" = "21-40";
+
+/* CountNm41-60 file */
+"CountNm41-60" = "41-60";
+/* CountNm41-60 file hold */
+"CountNm41-60Hold" = "41-60";
+
+/* CountNm61-80 file */
+"CountNm61-80" = "61-80";
+/* CountNm61-80 file hold */
+"CountNm61-80Hold" = "61-80";
+
+/* CountNm81-100 file */
+"CountNm81-100" = "81-100";
+/* CountNm81-100 file hold */
+"CountNm81-100Hold" = "81-100";
+
+/* CountNm1-100 file */
+"CountNm1-100" = "1-100";
+/* CountNm1-100 file hold */
+"CountNm1-100Hold" = "1-100";
+
+/* CountNmRandom */
+"CountNmRandom" = "Random";
+/* CountNmRandom file hold */
+"CountNmRandomHold" = "Random";
+
+/* CalcOrPlus file */
+"CalcOrPlus" = "Plus";
+/* CalcOrPlus file hold */
+"CalcOrPlusHold" = "Plus";
+
+/* CalcOrMinus file */
+"CalcOrMinus" = "Minus";
+/* CalcOrMinus file hold */
+"CalcOrMinusHold" = "Minus";
+
+/* CountCharacter file */
+"CountCharacter" = "eng_count_character.png";
+/* CountCharacter file hodl */
+"CountCharacterHold" = "eng_count_character_hold.png";
+
+/* CalcCharacter file */
+"CalcCharacter" = "eng_calc_character.png";
+/* CalcCharacter file hodl */
+"CalcCharacterHold" = "eng_calc_character_hold.png";
+
+/* BackButton file */
+"BackButton" = "eng_back.png";
+/* BackButton file hold */
+"BackButtonHold" = "eng_back_hold.png";
+
+/* Japanese Font Size */
+"jpn_font_size" = "17";
+
+/* Random Font Size */
+"random_font_size" = "17";

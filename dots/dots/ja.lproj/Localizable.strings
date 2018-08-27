@@ -1,0 +1,155 @@
+/* CountButton file */
+"CountButton" = "jpn_count.png";
+/* CountButton file hold */
+"CountButtonHold" = "jpn_count_hole.png";
+
+/* CalcButton file */
+"CalcButton" = "jpn_calc.png";
+/* CalcButton file hold */
+"CalcButtonHold" = "jpn_calc_hold.png";
+
+/* CountOpAuto file */
+"CountOpAuto" = "自 動";
+/* CountOpAuto file hold */
+"CountOpAutoHold" = "自 動";
+
+/* CountOpManual file */
+"CountOpManual" = "手 動";
+/* CountOpManual file hold */
+"CountOpManualHold" = "手 動";
+
+/* CalcOpAuto file */
+"CalcOpAuto" = "自 動";
+/* CalcOpAuto file hold */
+"CalcOpAutoHold" = "自 動";
+
+/* CalcOpManual file */
+"CalcOpManual" = "手 動";
+/* CalcOpManual file hold */
+"CalcOpManualHold" = "手 動";
+
+/* CountSpFast file */
+"CountSpFast" = "速 い";
+/* CountSpFast file hold */
+"CountSpFastHold" = "速 い";
+
+/* CountSpNormal file */
+"CountSpNormal" = "普 通";
+/* CountSpNormal file hold */
+"CountSpNormalHold" = "普 通";
+
+/* CountSpSlow file */
+"CountSpSlow" = "遅 い";
+/* CountSpSlow file hold */
+"CountSpSlowHold" = "遅 い";
+
+/* CalcSpFast file */
+"CalcSpFast" = "速 い";
+/* CalcSpFast file hold */
+"CalcSpFastHold" = "速 い";
+
+/* CalcSpNormal file */
+"CalcSpNormal" = "普 通";
+/* CalcSpNormal file hold */
+"CalcSpNormalHold" = "普 通";
+
+/* CalcSpSlow file */
+"CalcSpSlow" = "遅 い";
+/* CalcSpSlow file hold */
+"CalcSpSlowHold" = "遅 い";
+
+/* CountScJapanese file */
+"CountScJapanese" = "日本語";
+/* CountScJapanese file hold */
+"CountScJapaneseHold" = "日本語";
+
+/* CountScEnglish file */
+"CountScEnglish" = "英 語";
+/* CountScEnglish file hold */
+"CountScEnglishHold" = "英 語";
+
+/* CountScNone file */
+"CountScNone" = "消 す";
+/* CountScNone file hold */
+"CountScNoneHold" = "消 す";
+
+/* CalcScJapanese file */
+"CalcScJapanese" = "日本語";
+/* CalcScJapanese file hold */
+"CalcScJapaneseHold" = "日本語";
+
+/* CalcScEnglish file */
+"CalcScEnglish" = "英 語";
+/* CalcScEnglish file hold */
+"CalcScEnglishHold" = "英 語";
+
+/* CalcScNone file */
+"CalcScNone" = "消 す";
+/* CalcScNone file hold */
+"CalcScNoneHold" = "消 す";
+
+/* CountNm1-20 file */
+"CountNm1-20" = "1-20";
+/* CountNm1-20 file hold */
+"CountNm1-20Hold" = "1-20";
+
+/* CountNm21-40 file */
+"CountNm21-40" = "21-40";
+/* CountNm21-40 file hold */
+"CountNm21-40Hold" = "21-40";
+
+/* CountNm41-60 file */
+"CountNm41-60" = "41-60";
+/* CountNm41-60 file hold */
+"CountNm41-60Hold" = "41-60";
+
+/* CountNm61-80 file */
+"CountNm61-80" = "61-80";
+/* CountNm61-80 file hold */
+"CountNm61-80Hold" = "61-80";
+
+/* CountNm81-100 file */
+"CountNm81-100" = "81-100";
+/* CountNm81-100 file hold */
+"CountNm81-100Hold" = "81-100";
+
+/* CountNm1-100 file */
+"CountNm1-100" = "1-100";
+/* CountNm1-100 file hold */
+"CountNm1-100Hold" = "1-100";
+
+/* CountNmRandom */
+"CountNmRandom" = "ランダム";
+/* CountNmRandom file hold */
+"CountNmRandomHold" = "ランダム";
+
+/* CalcOrPlus file */
+"CalcOrPlus" = "足 す";
+/* CalcOrPlus file hold */
+"CalcOrPlusHold" = "足 す";
+
+/* CalcOrMinus file */
+"CalcOrMinus" = "引 く";
+/* CalcOrMinus file hold */
+"CalcOrMinusHold" = "引 く";
+
+/* CountCharacter file */
+"CountCharacter" = "キャラクター";
+/* CountCharacter file hodl */
+"CountCharacterHold" = "キャラクター";
+
+/* CalcCharacter file */
+"CalcCharacter" = "キャラクター";
+/* CalcCharacter file hodl */
+"CalcCharacterHold" = "キャラクター";
+
+/* BackButton file */
+"BackButton" = "戻 る";
+/* BackButton file hold */
+"BackButtonHold" = "戻 る";
+
+/* Japanese Font Size */
+"jpn_font_size" = "20";
+
+/* Random Font Size */
+"random_font_size" = "20";
