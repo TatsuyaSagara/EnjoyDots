@@ -251,6 +251,7 @@
 //    [self presentModalViewController:controller animated:NO];
     countController_ = [[CountViewController alloc] initWithNibName:nil bundle:nil];
     countController_.delegate = self;
+    countController_.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:countController_ animated:NO completion: nil];
 }
 // Calc選択イベント
@@ -266,6 +267,7 @@
 //    [self presentModalViewController:controller animated:NO];
     calcQuestionController_ = [[CalcQuestionViewController alloc] initWithNibName:nil bundle:nil];
     calcQuestionController_.delegate = self;
+    calcQuestionController_.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:calcQuestionController_ animated:NO completion: nil];
 }
 
@@ -276,12 +278,13 @@
         // iPhone 4インチ Retina用xib読み込み
         controller = [[InformationViewController alloc] initWithNibName:@"InformationViewController_iPhone4inchRetina" bundle:nil];
     } else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
-        // iPhone用xib読み込み
+        // iPhone(iPhone 13)用xib読み込み
         controller = [[InformationViewController alloc] initWithNibName:@"InformationViewController_iPhone" bundle:nil];
     } else {
-        // iPad用xib読み込み
+        // iPad(12.9)用xib読み込み
         controller = [[InformationViewController alloc] initWithNibName:@"InformationViewController_iPad" bundle:nil];
     }
+    controller.modalPresentationStyle = UIModalPresentationFullScreen;
     controller.modalTransitionStyle = UIModalTransitionStyleFlipHorizontal;
     [self presentViewController:controller animated:YES completion: nil];
 }
@@ -441,6 +444,7 @@
         // iPad用xib読み込み
         controller = [[SettingIconViewController alloc] initWithNibName:@"SettingIconViewController_iPad" bundle:nil];
     }
+    controller.modalPresentationStyle = UIModalPresentationFullScreen;
     [controller setIconDelegate:self];
     [self presentViewController:controller animated:NO completion: nil];
 }

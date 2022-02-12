@@ -322,6 +322,7 @@
 		1BFEE76015A0630900AB7D78 /* jpn_097.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BFEE75715A0630700AB7D78 /* jpn_097.mp3 */; };
 		1BFEE76115A0630900AB7D78 /* jpn_098.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BFEE75815A0630800AB7D78 /* jpn_098.mp3 */; };
 		1BFEE76215A0630900AB7D78 /* jpn_099.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1BFEE75915A0630800AB7D78 /* jpn_099.mp3 */; };
+		276229DB27B7A054008A4401 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276229DA27B7A054008A4401 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -662,6 +663,7 @@
 		1BFEE75715A0630700AB7D78 /* jpn_097.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jpn_097.mp3; sourceTree = "<group>"; };
 		1BFEE75815A0630800AB7D78 /* jpn_098.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jpn_098.mp3; sourceTree = "<group>"; };
 		1BFEE75915A0630800AB7D78 /* jpn_099.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jpn_099.mp3; sourceTree = "<group>"; };
+		276229DA27B7A054008A4401 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1096,6 +1098,7 @@
 				1BEBD864149A63F5003F518F /* Calc */,
 				1B8980C914C48DAA00A85804 /* Setting */,
 				1BEBD867149A642B003F518F /* Common */,
+				276229DA27B7A054008A4401 /* Images.xcassets */,
 				1BEE98CB148FD79F0099CECB /* Supporting Files */,
 			);
 			path = dots;
@@ -1227,6 +1230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				ja,
 			);
@@ -1483,6 +1487,7 @@
 				1B90FA1915318DBF00F90080 /* app114.png in Resources */,
 				1B90FA1B15318DC900F90080 /* app144.png in Resources */,
 				1B90FA2115319B4E00F90080 /* app72.png in Resources */,
+				276229DB27B7A054008A4401 /* Images.xcassets in Resources */,
 				1B90FA2415319C7800F90080 /* app57.png in Resources */,
 				1B90FA2A1531D10E00F90080 /* Default.png in Resources */,
 				1B90FA2C1531D11200F90080 /* Default@2x.png in Resources */,
@@ -1710,6 +1715,8 @@
 		1BEE98F7148FD79F0099CECB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J657N99RPX;
@@ -1727,6 +1734,8 @@
 		1BEE98F8148FD79F0099CECB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = J657N99RPX;
