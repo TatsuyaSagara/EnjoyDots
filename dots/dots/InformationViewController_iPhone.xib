@@ -1,1081 +1,254 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archive type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="8.00">
-	<data>
-		<int key="IBDocument.SystemTarget">1280</int>
-		<string key="IBDocument.SystemVersion">14D136</string>
-		<string key="IBDocument.InterfaceBuilderVersion">7702</string>
-		<string key="IBDocument.AppKitVersion">1347.57</string>
-		<string key="IBDocument.HIToolboxVersion">758.70</string>
-		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			<string key="NS.object.0">7701</string>
-		</object>
-		<array key="IBDocument.IntegratedClassDependencies">
-			<string>IBProxyObject</string>
-			<string>IBUIButton</string>
-			<string>IBUIImageView</string>
-			<string>IBUILabel</string>
-			<string>IBUIView</string>
-		</array>
-		<array key="IBDocument.PluginDependencies">
-			<string>com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-		</array>
-		<object class="NSMutableDictionary" key="IBDocument.Metadata">
-			<string key="NS.key.0">PluginDependencyRecalculationVersion</string>
-			<integer value="1" key="NS.object.0"/>
-		</object>
-		<array class="NSMutableArray" key="IBDocument.RootObjects" id="1000">
-			<object class="IBProxyObject" id="372490531">
-				<string key="IBProxiedObjectIdentifier">IBFilesOwner</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBProxyObject" id="975951072">
-				<string key="IBProxiedObjectIdentifier">IBFirstResponder</string>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-			<object class="IBUIView" id="191373211">
-				<nil key="NSNextResponder"/>
-				<int key="NSvFlags">274</int>
-				<array class="NSMutableArray" key="NSSubviews">
-					<object class="IBUIImageView" id="827915621">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{190, 35}, {284, 285}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="1019334972"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<float key="IBUIAlpha">0.20000000298023224</float>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<object class="NSCustomResource" key="IBUIImage">
-							<string key="NSClassName">NSImage</string>
-							<string key="NSResourceName">app_icon.png</string>
-						</object>
-					</object>
-					<object class="IBUIButton" id="1043493100">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrameSize">{480, 320}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="510407697"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<int key="IBUIContentHorizontalAlignment">0</int>
-						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSColor" key="IBUINormalTitleColor">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC4xOTYwNzg0MzQ2IDAuMzA5ODAzOTMyOSAwLjUyMTU2ODY1NgA</bytes>
-						</object>
-						<object class="NSColor" key="IBUIHighlightedTitleColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MQA</bytes>
-						</object>
-						<object class="NSColor" key="IBUINormalTitleShadowColor">
-							<int key="NSColorSpace">3</int>
-							<bytes key="NSWhite">MC41AA</bytes>
-						</object>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<int key="type">2</int>
-							<int key="weightCategory">30</int>
-							<double key="pointSize">15</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">HelveticaNeue</string>
-							<double key="NSSize">15</double>
-							<int key="NSfFlags">16</int>
-						</object>
-					</object>
-					<object class="IBUILabel" id="510407697">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{23, 38}, {60, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="759077253"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">COOPERATOR</string>
-						<object class="NSColor" key="IBUITextColor" id="325418199">
-							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MCAwIDAAA</bytes>
-							<string key="IBUIColorCocoaTouchKeyPath">darkTextColor</string>
-						</object>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="652713359">
-							<string key="name">Palatino-Roman</string>
-							<string key="family">Palatino</string>
-							<int key="traits">0</int>
-							<double key="pointSize">8</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="795871369">
-							<string key="NSName">Palatino-Roman</string>
-							<double key="NSSize">8</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="387144334">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{118, 96}, {102, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="117270814"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">PRODUCTION DESIGNER</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="1019334972">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{194, 77}, {48, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="982986784"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SOUND BY</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="423519135">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{59, 77}, {44, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="119279641"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">VOICE BY</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<object class="IBUIFontDescription" key="IBUIFontDescription">
-							<string key="name">Palatino-Roman</string>
-							<string key="family">Palatino</string>
-							<int key="traits">0</int>
-							<double key="pointSize">9</double>
-						</object>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">Palatino-Roman</string>
-							<double key="NSSize">9</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="937656657">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{69, 115}, {49, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="1029045912"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">EDITED BY</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="617505520">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{114, 133}, {95, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="890490558"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">EXECUTIVE PRODUCER</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="1017678691">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{97, 151}, {127, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="617505520"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">PRODUCED AND DIRECTED BY</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="627675514">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 279}, {440, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="827915621"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">©2015 ONE device. All Rights Reserved.</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<int key="IBUITextAlignment">1</int>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="570881624">
-							<string key="name">Palatino-Roman</string>
-							<string key="family">Palatino</string>
-							<int key="traits">0</int>
-							<double key="pointSize">10</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="962423119">
-							<string key="NSName">Palatino-Roman</string>
-							<double key="NSSize">10</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="332798327">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{184, 189}, {113, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="937042683"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">http://www.sysq.co.jp/</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="570881624"/>
-						<reference key="IBUIFont" ref="962423119"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="937042683">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{177, 225}, {127, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="627675514"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">http://www.onedevice.jp/</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="570881624"/>
-						<reference key="IBUIFont" ref="962423119"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="541793922">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{137, 206}, {207, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="332798327"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">http://www14.big.or.jp/~amiami/happy/</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="570881624"/>
-						<reference key="IBUIFont" ref="962423119"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="752131691">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{239, 38}, {28, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="97602558"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AND</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="56207911">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{183, 57}, {24, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="863161812"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AND</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="676600048">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{34, 57}, {23, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="423519135"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AND</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="97602558">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{382, 57}, {26, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="560898824"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AND</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="963269840">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{258, 115}, {21, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="28571969"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AND</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="652713359"/>
-						<reference key="IBUIFont" ref="795871369"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="156869133">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{84, 36}, {154, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="566518199"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">HIRONOBU UOYA</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<object class="IBUIFontDescription" key="IBUIFontDescription" id="201801399">
-							<string key="name">Palatino-Roman</string>
-							<string key="family">Palatino</string>
-							<int key="traits">0</int>
-							<double key="pointSize">17</double>
-						</object>
-						<object class="NSFont" key="IBUIFont" id="752078751">
-							<string key="NSName">Palatino-Roman</string>
-							<double key="NSSize">17</double>
-							<int key="NSfFlags">16</int>
-						</object>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="759077253">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{58, 55}, {129, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="156869133"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">HIROMI SANO</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="119279641">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{105, 75}, {88, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="56207911"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">AMITARO</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="560898824">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{407, 55}, {39, 22}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="937656657"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">RAQ</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="863161812">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{208, 55}, {171, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="752131691"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">MINORI KINOSHITA</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="944091102">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{242, 75}, {180, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="1017678691"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">KAZUHIRO SAGARA</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="117270814">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{222, 94}, {140, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="944091102"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">CHISAMI INOUE</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="1029045912">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{115, 113}, {139, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="387144334"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">NORIO SHIBATA</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="28571969">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{284, 113}, {127, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="267494052"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">KAZUYA FUJII</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="890490558">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{212, 131}, {154, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="963269840"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">YOSHINORI AOKI</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="267494052">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{224, 149}, {160, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="541793922"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">TATSUYA SAGARA</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="566518199">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{264, 36}, {193, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<reference key="NSNextKeyView" ref="676600048"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">SYSTEM QUALITY CO.</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<float key="IBUIMinimumFontSize">10</float>
-						<reference key="IBUIFontDescription" ref="201801399"/>
-						<reference key="IBUIFont" ref="752078751"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-					<object class="IBUILabel" id="982986784">
-						<reference key="NSNextResponder" ref="191373211"/>
-						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{432, 292}, {42, 21}}</string>
-						<reference key="NSSuperview" ref="191373211"/>
-						<string key="NSReuseIdentifierKey">_NS:9</string>
-						<bool key="IBUIOpaque">NO</bool>
-						<bool key="IBUIClipsSubviews">YES</bool>
-						<int key="IBUIContentMode">7</int>
-						<bool key="IBUIUserInteractionEnabled">NO</bool>
-						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">v1.2.1</string>
-						<reference key="IBUITextColor" ref="325418199"/>
-						<nil key="IBUIHighlightedColor"/>
-						<int key="IBUIBaselineAdjustment">0</int>
-						<int key="IBUITextAlignment">1</int>
-						<reference key="IBUIFontDescription" ref="570881624"/>
-						<reference key="IBUIFont" ref="962423119"/>
-						<bool key="IBUIAdjustsFontSizeToFit">NO</bool>
-						<bool key="useAutomaticPreferredMaxLayoutWidth">YES</bool>
-					</object>
-				</array>
-				<string key="NSFrameSize">{480, 320}</string>
-				<reference key="NSNextKeyView" ref="1043493100"/>
-				<object class="NSColor" key="IBUIBackgroundColor">
-					<int key="NSColorSpace">3</int>
-					<bytes key="NSWhite">MQA</bytes>
-					<object class="NSColorSpace" key="NSCustomColorSpace">
-						<int key="NSID">2</int>
-					</object>
-				</object>
-				<object class="IBUISimulatedOrientationMetrics" key="IBUISimulatedOrientationMetrics">
-					<int key="IBUIInterfaceOrientation">3</int>
-					<int key="interfaceOrientation">3</int>
-				</object>
-				<object class="IBUISimulatedSizeMetrics" key="IBUISimulatedDestinationMetrics">
-					<string key="IBUISimulatedSizeMetricsClass">IBUISimulatedFreeformSizeMetricsSentinel</string>
-					<string key="IBUIDisplayName">Freeform</string>
-				</object>
-				<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-			</object>
-		</array>
-		<object class="IBObjectContainer" key="IBDocument.Objects">
-			<array key="connectionRecords">
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchOutletConnection" key="connection">
-						<string key="label">view</string>
-						<reference key="source" ref="372490531"/>
-						<reference key="destination" ref="191373211"/>
-					</object>
-					<int key="connectionID">3</int>
-				</object>
-				<object class="IBConnectionRecord">
-					<object class="IBCocoaTouchEventConnection" key="connection">
-						<string key="label">CloseButton:</string>
-						<reference key="source" ref="1043493100"/>
-						<reference key="destination" ref="372490531"/>
-						<int key="IBEventType">7</int>
-					</object>
-					<int key="connectionID">8</int>
-				</object>
-			</array>
-			<object class="IBMutableOrderedSet" key="objectRecords">
-				<array key="orderedObjects">
-					<object class="IBObjectRecord">
-						<int key="objectID">0</int>
-						<array key="object" id="0"/>
-						<reference key="children" ref="1000"/>
-						<nil key="parent"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-1</int>
-						<reference key="object" ref="372490531"/>
-						<reference key="parent" ref="0"/>
-						<string key="objectName">File's Owner</string>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">-2</int>
-						<reference key="object" ref="975951072"/>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">1</int>
-						<reference key="object" ref="191373211"/>
-						<array class="NSMutableArray" key="children">
-							<reference ref="1043493100"/>
-							<reference ref="827915621"/>
-							<reference ref="156869133"/>
-							<reference ref="510407697"/>
-							<reference ref="752131691"/>
-							<reference ref="566518199"/>
-							<reference ref="759077253"/>
-							<reference ref="56207911"/>
-							<reference ref="863161812"/>
-							<reference ref="97602558"/>
-							<reference ref="560898824"/>
-							<reference ref="944091102"/>
-							<reference ref="387144334"/>
-							<reference ref="937656657"/>
-							<reference ref="1029045912"/>
-							<reference ref="963269840"/>
-							<reference ref="28571969"/>
-							<reference ref="617505520"/>
-							<reference ref="890490558"/>
-							<reference ref="1017678691"/>
-							<reference ref="267494052"/>
-							<reference ref="541793922"/>
-							<reference ref="1019334972"/>
-							<reference ref="119279641"/>
-							<reference ref="117270814"/>
-							<reference ref="423519135"/>
-							<reference ref="627675514"/>
-							<reference ref="332798327"/>
-							<reference ref="937042683"/>
-							<reference ref="676600048"/>
-							<reference ref="982986784"/>
-						</array>
-						<reference key="parent" ref="0"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">16</int>
-						<reference key="object" ref="827915621"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">4</int>
-						<reference key="object" ref="1043493100"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">36</int>
-						<reference key="object" ref="510407697"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">38</int>
-						<reference key="object" ref="156869133"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">39</int>
-						<reference key="object" ref="752131691"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">40</int>
-						<reference key="object" ref="566518199"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">41</int>
-						<reference key="object" ref="676600048"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">42</int>
-						<reference key="object" ref="759077253"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">43</int>
-						<reference key="object" ref="56207911"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">44</int>
-						<reference key="object" ref="863161812"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">45</int>
-						<reference key="object" ref="97602558"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">46</int>
-						<reference key="object" ref="560898824"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">47</int>
-						<reference key="object" ref="1019334972"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">48</int>
-						<reference key="object" ref="119279641"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">52</int>
-						<reference key="object" ref="944091102"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">53</int>
-						<reference key="object" ref="387144334"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">54</int>
-						<reference key="object" ref="117270814"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">55</int>
-						<reference key="object" ref="937656657"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">56</int>
-						<reference key="object" ref="1029045912"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">58</int>
-						<reference key="object" ref="963269840"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">59</int>
-						<reference key="object" ref="28571969"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">60</int>
-						<reference key="object" ref="617505520"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">61</int>
-						<reference key="object" ref="890490558"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">62</int>
-						<reference key="object" ref="1017678691"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">63</int>
-						<reference key="object" ref="267494052"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">64</int>
-						<reference key="object" ref="627675514"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">65</int>
-						<reference key="object" ref="332798327"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">66</int>
-						<reference key="object" ref="541793922"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">67</int>
-						<reference key="object" ref="937042683"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">68</int>
-						<reference key="object" ref="423519135"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-					<object class="IBObjectRecord">
-						<int key="objectID">69</int>
-						<reference key="object" ref="982986784"/>
-						<reference key="parent" ref="191373211"/>
-					</object>
-				</array>
-			</object>
-			<dictionary class="NSMutableDictionary" key="flattenedProperties">
-				<string key="-1.CustomClassName">InformationViewController</string>
-				<string key="-1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="-2.CustomClassName">UIResponder</string>
-				<string key="-2.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="1.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="16.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="36.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="38.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="39.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="4.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="40.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="41.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="42.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="43.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="44.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="45.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="46.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="47.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="48.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="52.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="53.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="54.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="55.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="56.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="58.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="59.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="60.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="61.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="62.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="63.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="64.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="65.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="66.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="67.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="68.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-				<string key="69.IBPluginDependency">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
-			</dictionary>
-			<dictionary class="NSMutableDictionary" key="unlocalizedProperties"/>
-			<nil key="activeLocalization"/>
-			<dictionary class="NSMutableDictionary" key="localizations"/>
-			<nil key="sourceID"/>
-			<int key="maxID">69</int>
-		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes"/>
-		<int key="IBDocument.localizationMode">0</int>
-		<string key="IBDocument.TargetRuntimeIdentifier">IBCocoaTouchFramework</string>
-		<bool key="IBDocument.previouslyAttemptedUpgradeToXcode5">NO</bool>
-		<object class="NSMutableDictionary" key="IBDocument.PluginDeclaredDevelopmentDependencies">
-			<string key="NS.key.0">com.apple.InterfaceBuilder.CocoaTouchPlugin.InterfaceBuilder3</string>
-			<integer value="4600" key="NS.object.0"/>
-		</object>
-		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
-		<int key="IBDocument.defaultPropertyAccessControl">3</int>
-		<object class="NSMutableDictionary" key="IBDocument.LastKnownImageSizes">
-			<string key="NS.key.0">app_icon.png</string>
-			<string key="NS.object.0">{512, 512}</string>
-		</object>
-	</data>
-</archive>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="InformationViewController">
+            <connections>
+                <outlet property="view" destination="1" id="3"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="1">
+            <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" alpha="0.20000000298023224" contentMode="scaleToFill" fixedFrame="YES" image="app_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="16">
+                    <rect key="frame" x="190" y="35" width="284" height="285"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4">
+                    <rect key="frame" x="0.0" y="0.0" width="457" height="255"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <state key="normal">
+                        <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <state key="highlighted">
+                        <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="CloseButton:" destination="-1" eventType="touchUpInside" id="8"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="COOPERATOR" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36">
+                    <rect key="frame" x="23" y="38" width="60" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="PRODUCTION DESIGNER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="53">
+                    <rect key="frame" x="118" y="96" width="102" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="SOUND BY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47">
+                    <rect key="frame" x="194" y="77" width="48" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="VOICE BY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68">
+                    <rect key="frame" x="59" y="77" width="44" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="9"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="EDITED BY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="55">
+                    <rect key="frame" x="69" y="115" width="49" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="EXECUTIVE PRODUCER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="60">
+                    <rect key="frame" x="114" y="133" width="95" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="PRODUCED AND DIRECTED BY" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="62">
+                    <rect key="frame" x="97" y="151" width="127" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="©2015 ONE device. All Rights Reserved. iPhone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="64">
+                    <rect key="frame" x="20" y="279" width="440" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="10"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="http://www.sysq.co.jp/" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="65">
+                    <rect key="frame" x="184" y="189" width="113" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="10"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="http://www.onedevice.jp/" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67">
+                    <rect key="frame" x="177" y="225" width="127" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="10"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="http://www14.big.or.jp/~amiami/happy/" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="66">
+                    <rect key="frame" x="137" y="206" width="207" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="10"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="39">
+                    <rect key="frame" x="239" y="38" width="28" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43">
+                    <rect key="frame" x="183" y="57" width="24" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="41">
+                    <rect key="frame" x="34" y="57" width="23" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="45">
+                    <rect key="frame" x="382" y="57" width="26" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AND" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="58">
+                    <rect key="frame" x="258" y="115" width="21" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="8"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="HIRONOBU UOYA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="38">
+                    <rect key="frame" x="84" y="36" width="154" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="HIROMI SANO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="42">
+                    <rect key="frame" x="58" y="55" width="129" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="AMITARO" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="48">
+                    <rect key="frame" x="105" y="75" width="88" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="RAQ" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="46">
+                    <rect key="frame" x="407" y="55" width="39" height="22"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="MINORI KINOSHITA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="44">
+                    <rect key="frame" x="208" y="55" width="171" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="KAZUHIRO SAGARA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="52">
+                    <rect key="frame" x="242" y="75" width="180" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="CHISAMI INOUE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="54">
+                    <rect key="frame" x="222" y="94" width="140" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="NORIO SHIBATA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="56">
+                    <rect key="frame" x="115" y="113" width="139" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="KAZUYA FUJII" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="59">
+                    <rect key="frame" x="284" y="113" width="127" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="YOSHINORI AOKI" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="61">
+                    <rect key="frame" x="212" y="131" width="154" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="TATSUYA SAGARA" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="63">
+                    <rect key="frame" x="224" y="149" width="160" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="SYSTEM QUALITY CO." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="40">
+                    <rect key="frame" x="264" y="36" width="193" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="17"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" fixedFrame="YES" text="v1.2.1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="69">
+                    <rect key="frame" x="432" y="292" width="42" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="10"/>
+                    <color key="textColor" systemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <nil key="simulatedStatusBarMetrics"/>
+            <point key="canvasLocation" x="91.741071428571431" y="15.942028985507248"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="app_icon.png" width="512" height="512"/>
+        <systemColor name="darkTextColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

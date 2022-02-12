@@ -181,6 +181,7 @@
     // 答え画面の表示
     calcAnswerController_ = [[CalcAnswerViewController alloc] initWithNibName:nil bundle:nil];
     calcAnswerController_.delegate = self;
+    calcAnswerController_.modalPresentationStyle = UIModalPresentationFullScreen;
     // Calc画面（子ビュー）を開く
     [self presentViewController:calcAnswerController_ animated:NO completion:nil];
 }
@@ -252,6 +253,7 @@
     CalcAnswerViewController* viewController = [[CalcAnswerViewController alloc] initWithNibName:nil bundle:nil];  
     viewController.delegate = self;
     // Calc画面（子ビュー）を開く
+    viewController.modalPresentationStyle = UIModalPresentationFullScreen;
     [self presentViewController:viewController animated:NO completion:nil];
 }
 

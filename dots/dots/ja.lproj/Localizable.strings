@@ -9,84 +9,84 @@
 "CalcButtonHold" = "jpn_calc_hold.png";
 
 /* CountOpAuto file */
-"CountOpAuto" = "自 動";
+"CountOpAuto" = "じどう";
 /* CountOpAuto file hold */
-"CountOpAutoHold" = "自 動";
+"CountOpAutoHold" = "じどう";
 
 /* CountOpManual file */
-"CountOpManual" = "手 動";
+"CountOpManual" = "しゅどう";
 /* CountOpManual file hold */
-"CountOpManualHold" = "手 動";
+"CountOpManualHold" = "しゅどう";
 
 /* CalcOpAuto file */
-"CalcOpAuto" = "自 動";
+"CalcOpAuto" = "じどう";
 /* CalcOpAuto file hold */
-"CalcOpAutoHold" = "自 動";
+"CalcOpAutoHold" = "じどう";
 
 /* CalcOpManual file */
-"CalcOpManual" = "手 動";
+"CalcOpManual" = "しゅどう";
 /* CalcOpManual file hold */
-"CalcOpManualHold" = "手 動";
+"CalcOpManualHold" = "しゅどう";
 
 /* CountSpFast file */
-"CountSpFast" = "速 い";
+"CountSpFast" = "はやい";
 /* CountSpFast file hold */
-"CountSpFastHold" = "速 い";
+"CountSpFastHold" = "はやい";
 
 /* CountSpNormal file */
-"CountSpNormal" = "普 通";
+"CountSpNormal" = "ふつう";
 /* CountSpNormal file hold */
-"CountSpNormalHold" = "普 通";
+"CountSpNormalHold" = "ふつう";
 
 /* CountSpSlow file */
-"CountSpSlow" = "遅 い";
+"CountSpSlow" = "おそい";
 /* CountSpSlow file hold */
-"CountSpSlowHold" = "遅 い";
+"CountSpSlowHold" = "おそい";
 
 /* CalcSpFast file */
-"CalcSpFast" = "速 い";
+"CalcSpFast" = "はやい";
 /* CalcSpFast file hold */
-"CalcSpFastHold" = "速 い";
+"CalcSpFastHold" = "はやい";
 
 /* CalcSpNormal file */
-"CalcSpNormal" = "普 通";
+"CalcSpNormal" = "ふつう";
 /* CalcSpNormal file hold */
-"CalcSpNormalHold" = "普 通";
+"CalcSpNormalHold" = "ふつう";
 
 /* CalcSpSlow file */
-"CalcSpSlow" = "遅 い";
+"CalcSpSlow" = "おそい";
 /* CalcSpSlow file hold */
-"CalcSpSlowHold" = "遅 い";
+"CalcSpSlowHold" = "おそい";
 
 /* CountScJapanese file */
-"CountScJapanese" = "日本語";
+"CountScJapanese" = "にほんご";
 /* CountScJapanese file hold */
-"CountScJapaneseHold" = "日本語";
+"CountScJapaneseHold" = "にほんご";
 
 /* CountScEnglish file */
-"CountScEnglish" = "英 語";
+"CountScEnglish" = "えいご";
 /* CountScEnglish file hold */
-"CountScEnglishHold" = "英 語";
+"CountScEnglishHold" = "えいご";
 
 /* CountScNone file */
-"CountScNone" = "消 す";
+"CountScNone" = "けす";
 /* CountScNone file hold */
-"CountScNoneHold" = "消 す";
+"CountScNoneHold" = "けす";
 
 /* CalcScJapanese file */
-"CalcScJapanese" = "日本語";
+"CalcScJapanese" = "にほんご";
 /* CalcScJapanese file hold */
-"CalcScJapaneseHold" = "日本語";
+"CalcScJapaneseHold" = "にほんご";
 
 /* CalcScEnglish file */
-"CalcScEnglish" = "英 語";
+"CalcScEnglish" = "えいご";
 /* CalcScEnglish file hold */
-"CalcScEnglishHold" = "英 語";
+"CalcScEnglishHold" = "えいご";
 
 /* CalcScNone file */
-"CalcScNone" = "消 す";
+"CalcScNone" = "けす";
 /* CalcScNone file hold */
-"CalcScNoneHold" = "消 す";
+"CalcScNoneHold" = "けす";
 
 /* CountNm1-20 file */
 "CountNm1-20" = "1-20";
@@ -124,14 +124,14 @@
 "CountNmRandomHold" = "ランダム";
 
 /* CalcOrPlus file */
-"CalcOrPlus" = "足 す";
+"CalcOrPlus" = "たす";
 /* CalcOrPlus file hold */
-"CalcOrPlusHold" = "足 す";
+"CalcOrPlusHold" = "たす";
 
 /* CalcOrMinus file */
-"CalcOrMinus" = "引 く";
+"CalcOrMinus" = "ひく";
 /* CalcOrMinus file hold */
-"CalcOrMinusHold" = "引 く";
+"CalcOrMinusHold" = "ひく";
 
 /* CountCharacter file */
 "CountCharacter" = "キャラクター";
@@ -144,9 +144,9 @@
 "CalcCharacterHold" = "キャラクター";
 
 /* BackButton file */
-"BackButton" = "戻 る";
+"BackButton" = "もどる";
 /* BackButton file hold */
-"BackButtonHold" = "戻 る";
+"BackButtonHold" = "もどる";
 
 /* Japanese Font Size */
 "jpn_font_size" = "20";
